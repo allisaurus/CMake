@@ -1,0 +1,3 @@
+C:/Users/stankoa/source/CMake/Help/guide/tutorial/Step1_build/CMakeFiles/Tutorial.dir
+C:/Users/stankoa/source/CMake/Help/guide/tutorial/Step1_build/CMakeFiles/ALL_BUILD.dir
+C:/Users/stankoa/source/CMake/Help/guide/tutorial/Step1_build/CMakeFiles/ZERO_CHECK.dir
