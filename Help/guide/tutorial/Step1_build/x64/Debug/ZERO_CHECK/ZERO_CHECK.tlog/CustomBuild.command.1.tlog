@@ -1,0 +1,10 @@
+^C:\USERS\STANKOA\SOURCE\CMAKE\HELP\GUIDE\TUTORIAL\STEP1_BUILD\CMAKEFILES\AFB0CC8A7429E7B54FC89C866FACA3F8\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -SC:/Users/stankoa/source/CMake/Help/guide/tutorial/Step1 -BC:/Users/stankoa/source/CMake/Help/guide/tutorial/Step1_build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/stankoa/source/CMake/Help/guide/tutorial/Step1_build/Tutorial.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
